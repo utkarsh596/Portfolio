@@ -1,0 +1,211 @@
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #011613;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #00917C;
+  }
+
+
+#loader-true{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: #011613;
+  background-image: url(./load.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#loader-none {
+    opacity: 0;
+  }
+
+.head{
+    height: 700px;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    
+}
+
+.home-section {
+    position: relative;
+    z-index: -1;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+.head-intro{
+    width: 20px;
+    font-size: 100px;
+    text-align: left;
+    color: grey;
+}
+
+.head-name{
+    
+    font-size: 100px;
+    color: #00917C;
+}
+
+.head-about{
+    
+    padding-bottom: 70px;
+    padding-top: 10px;
+      
+}
+
+
+
+.head-about-description {
+    color: grey;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.my-description{
+    color: #00917C;
+    padding-top: 100px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.head-image{
+    border-radius: 50%;
+}  
+
+.home-about-social {
+    text-align: center;
+    padding-top: 40px;
+    color: grey;
+}
+
+.home-about-social-links {
+    justify-content: center ;
+    padding-top: 15px;
+    display: inline-block;
+    position: relative;
+    padding-inline-start: 0;
+}
+
+.home-social-icons {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px ;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 2em ;
+    border-radius: 50%;
+    transition: all 0.2s ease 0s;
+}
+
+.social-icons {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.home-social-icons:hover {
+    color: #00917C;
+}
+  
+.icon-colour {
+    color: #00917C;
+}
+
+
+.about{
+    font-size: 100px;
+    color: grey;
+    opacity: 0.5;
+}
+
+.navbar{
+    position: fixed;
+  transition: all 0.3s ease-out 0s;
+  padding: 0.3rem 2rem;
+  font-size: 1.2rem;
+}
+
+.nav-item{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.down{
+    background-color: #001d19;
+    transition: all 0.3s ease-out 0s;
+    opacity: 0.8;
+    backdrop-filter: blur(5px);
+    border-radius: 30%;
+}
+
+.nav-link:hover{
+    color: #00917C;
+    transition: all 0.5s ease 0s;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 500px;
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid #00917C;
+    color: #00917C;
+    transition: all 0.5s ease 0s;
+}
+
+.skill:hover{
+    border: 1px solid #00917C;
+    color: #00917C;
+    background-color: rgb(7, 31, 21);
+}
+
+.project-section {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+.project-heading {
+    font-size: 50px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.project-card {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: auto;
+}
+
+.project-card-view {
+    box-shadow: 0 4px 5px 3px #00917C;
+    color: white;
+    background-color: transparent;
+    opacity: 0.9;
+    transition: all 0.5s ease 0s;
+    height: 100%;
+}
+
+.project-card-view:hover {
+    transform: scale(1.02);
+    overflow: hidden;
+    box-shadow: 0 4px 4px 5px #00917C;
+}
