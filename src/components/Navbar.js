@@ -6,6 +6,16 @@ import {
   Link
 } from "react-router-dom";
 
+const Ab=()=>{
+  return(
+    <Router>
+      <Switch>
+        <Route/>
+      </Switch>
+    </Router>
+  );
+}
+
 const Navbar = () =>{
   const [position, navbarPosition] = useState(false);
 
@@ -17,6 +27,8 @@ const Navbar = () =>{
     }
   }
   window.addEventListener("scroll", scroll);
+  if(false) return Ab;
+
     return(
       <nav className={position ? "navbar navbar-expand-sm sticky-top down" : "navbar navbar-expand-sm sticky-top"}>
         <a className="navbar-brand" href="https://www.linkedin.com/in/utkarsh-singhal-58ba3b1a6/" target="_blank" rel="noreferrer">Utkarsh Singhal</a>
